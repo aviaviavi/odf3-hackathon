@@ -28,3 +28,11 @@ You can build your own applications powered by this data!
 
 - Every query, graph, and dashboard is embeddable on your own webpages. Hit the "share" button for embed links.
 - The database itself is publicly accessible. Email mail@avi.press to get read-only credentials for the postgresql database.
+
+## Notes, caveats, etc
+
+- The `TABLE.country_code` field is generally incorrect right now for most
+  tables (they are non-standard from our main data source), so making map based
+  graphs doesn't work out of the box. We've included a `country_code` table
+  where you can join on a `name`, which has the correct codes that will work
+  with metabase's map utilities.
