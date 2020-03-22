@@ -1,0 +1,79 @@
+name,country_code,total_covid19_tests
+Armenia,ARM,813
+Australia,AUS,113615
+Australia - Australian Capital Territory,,2062
+Australia - New South Wales,,39089
+Australia - Queensland,,27000
+Australia - South Australia,,16717
+Australia - Tasmania,,807
+Australia - Victoria,,19337
+Australia - Western Australia,,8603
+Austria,AUT,15613
+Bahrain,BHR,18645
+Belarus,BLR,16000
+Belgium,BEL,18360
+Brazil,BRA,2927
+Canada,CAN,113121
+Canada - Alberta,,17013
+Canada - British Columbia,,6326
+Canada - National lab,,54956
+Canada - New Brunswick,,520
+Canada - Northwest Territories,,222
+Canada - Nova Scotia,,1561
+Canada - Ontario,,19511
+Canada - Quebec,,10451
+Canada - Saskatchewan,,2561
+China - Guangdong,,320000
+Colombia,COL,4103
+Costa Rica,CRI,1039
+Croatia,HRV,1264
+Czech Republic,CZE,11619
+Denmark,DNK,10730
+Estonia,EST,2504
+Faeroe Islands,FRO,1641
+Finland,FIN,3000
+France,FRA,36747
+Germany,DEU,167000
+Hong Kong,HKG,5271
+Hungary,HUN,3007
+Iceland,ISL,9189
+India,IND,14514
+Indonesia,IDN,2028
+Iran,IRN,80000
+Ireland,IRL,6600
+Israel,ISR,10864
+Italy,ITA,206886
+Japan,JPN,14901
+Kyrgyzstan,KGZ,1545
+Latvia,LVA,3205
+Lithuania,LTU,1154
+Malaysia,MYS,13876
+Malta,MLT,889
+Mexico,MEX,278
+Netherlands,NLD,6000
+New Zealand,NZL,584
+Norway,NOR,43735
+Pakistan,PAK,1979
+Palestine,PSE,2519
+Panama,PAN,1455
+Philippines,PHL,1269
+Poland,POL,13072
+Qatar,QAT,8400
+Romania,ROU,8284
+Russia,RUS,143519
+Slovakia,SVK,2707
+Slovenia,SVN,9860
+South Africa,ZAF,6438
+South Korea,KOR,316664
+Spain,ESP,30000
+Sweden,SWE,14300
+Switzerland,CHE,4000
+Taiwan,TWN,21376
+Thailand,THA,7084
+Turkey,TUR,2900
+Ukraine,UKR,316
+United Arab Emirates,ARE,125000
+United Kingdom,GBR,64621
+United States,USA,103945
+United States - CDC samples tested,,37646
+Vietnam,VNM,15637
