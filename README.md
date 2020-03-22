@@ -20,6 +20,8 @@ password: odf3guest
 Every table in the system is represented by a .csv file in this repository.
 Filenames of the csv's correspond to the table names in the database.
 
+If you'd like to change any of the data or add new data, just submit a pull request!
+
 ## Using the data in your application
 
 You can build your own applications powered by this data!
