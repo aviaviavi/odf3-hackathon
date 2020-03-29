@@ -17,10 +17,24 @@ password: odf3guest
 
 ## Contribute data
 
-Every table in the system is represented by a .csv file in this repository.
-Filenames of the csv's correspond to the table names in the database.
-
 If you'd like to change any of the data or add new data, just submit a pull request!
+
+#### Add new data
+
+- Add your csv data. Every table in the system is represented by a .csv file in
+this repository. Filenames of the csv's correspond to the table names in the
+database.
+- If the data you're adding can be automatically refreshed, add an entry to
+  `sources.csv` with your tablename and the url where the data can be refreshed
+  from
+- Add a table definition to `schema.sql`
+
+#### Edit/Clean existing data
+
+If you are editing existing data, and the table is _not_ in `sources.csv`, you
+can edit the data directly. Otherwise, the data will need to be updated at the
+url for the table in `sources.csv`, since the data will be automatically synced
+to the data at that url
 
 ## Using the data in your application
 
