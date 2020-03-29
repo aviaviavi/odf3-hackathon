@@ -2,20 +2,17 @@
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
-csvs=(covid19_cases_by_country)
-urls=("https://covid.ourworldindata.org/data/ecdc/full_data.csv")
-
-length=${#csvs[@]}
-
-for i in ${!csvs[@]}; do
-    csv=${csvs[$i]}
-    url=${urls[$i]}
+input="$DIR/sources.csv"
+while IFS= read -r line
+do
+    csv=$(echo $line | cut -d ',' -f 1)
+    url=$(echo $line | cut -d ',' -f 2)
 
     echo $csv
     echo $url
 
     echo "Updating $csv"
     curl $url -o "$csv.csv"
-done
+done < "$input"
 
 echo "Done!"
