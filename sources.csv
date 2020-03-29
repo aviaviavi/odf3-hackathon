@@ -1,1 +1,2 @@
 covid19_cases_by_country,https://covid.ourworldindata.org/data/ecdc/full_data.csv
+sp_500,https://query1.finance.yahoo.com/v7/finance/download/%5EGSPC?period1=1553893212&period2=1585515612&interval=1d&events=history
