@@ -237,3 +237,28 @@ GRANT ALL ON SCHEMA public TO PUBLIC;
 -- PostgreSQL database dump complete
 --
 
+
+create table public.covid19_by_state (
+  date date,
+	state text,
+	positive int,
+ 	negative int,
+	pending int,
+	hospitalized int,
+	death int,
+	total int,
+	hash text,
+	date_checked date,
+	total_test_results int,
+	fips int,
+	death_increase int,
+	hospitalized_increase int,
+	negative_increase int,
+	positive_increase int,
+	total_test_results_increase int
+);
+
+create table public.gross_federal_debt (
+  date date,
+  gross_debt float
+);
